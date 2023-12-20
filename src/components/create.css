@@ -1,0 +1,41 @@
+/* CreateNoteComponent.css (or any other stylesheet you prefer) */
+
+.CreateNoteComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #0d7684;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
